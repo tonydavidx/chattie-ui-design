@@ -1,7 +1,7 @@
-import 'package:chattie_ui/models/message_model.dart';
-import 'package:chattie_ui/screens/screen.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/cupertino.dart';
+import '../models/message_model.dart';
+import '../screens/screen.dart';
 
 import '../app_theme.dart';
 

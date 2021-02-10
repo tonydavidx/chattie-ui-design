@@ -1,5 +1,4 @@
-import 'package:chattie_ui/app_theme.dart';
-import 'package:chattie_ui/models/message_model.dart';
+import '../app_theme.dart';
 import 'package:flutter/material.dart';
 import '../widgets/widgets.dart';
 import '../screens/screen.dart';

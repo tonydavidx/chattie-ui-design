@@ -1,4 +1,6 @@
-import 'package:chattie_ui/models/message_model.dart';
+import '../models/message_model.dart';
+import '../screens/screen.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../app_theme.dart';
@@ -36,21 +38,29 @@ class AllChats extends StatelessWidget {
                       SizedBox(
                         width: 20,
                       ),
-                      Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: [
-                          Text(
-                            allChat.sender.name,
-                            style: MyTheme.heading2.copyWith(
-                              fontSize: 16,
+                      GestureDetector(
+                        onTap: () {
+                          Navigator.push(context,
+                              CupertinoPageRoute(builder: (context) {
+                            return ChatRoom(user: allChat.sender);
+                          }));
+                        },
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Text(
+                              allChat.sender.name,
+                              style: MyTheme.heading2.copyWith(
+                                fontSize: 16,
+                              ),
                             ),
-                          ),
-                          Text(
-                            allChat.text,
-                            style: MyTheme.bodyText1,
-                          ),
-                        ],
+                            Text(
+                              allChat.text,
+                              style: MyTheme.bodyText1,
+                            ),
+                          ],
+                        ),
                       ),
                       Spacer(),
                       Column(
