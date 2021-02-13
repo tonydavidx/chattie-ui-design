@@ -1,16 +1,8 @@
-# chattie_ui
+# Chat Application UI in Flutter
+a chat application ui created using flutter. this application consits of two pages Homepage view with tabbar and tabrview and chat room page.
 
-A new Flutter project.
+Watch this ui build process at this link: [https://www.youtube.com/watch?v=WgJ6TzNswEo]
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Chat app home screen](screenshot/app-screen-1.png)
+![Chat app home screen](screenshot/app-screen-2.png)
+![Chat app animation](screenshot/video.gif)
