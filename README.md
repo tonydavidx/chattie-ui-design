@@ -3,6 +3,7 @@ a chat application ui created using flutter. this application consits of two pag
 
 Watch this ui build process at this link: [https://www.youtube.com/watch?v=WgJ6TzNswEo]
 
-![Chat app home screen](screenshot/app-screen-1.png)
-![Chat app home screen](screenshot/app-screen-2.png)
+# 📷 ScreenShots
+<img src="screenshot/app-screen-1.png" width="400">
+<img src="screenshot/app-screen-2.png" width="400"> 
 ![Chat app animation](screenshot/video.gif)
