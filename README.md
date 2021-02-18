@@ -4,6 +4,7 @@ a chat application ui created using flutter. this application consits of two pag
 Watch this ui build process at youtube: [https://www.youtube.com/watch?v=WgJ6TzNswEo]
 
 # 📷 ScreenShots
+| HomeScree                       | Chat Room Screen
 --------------------------------- | ---------------------------------
 <img src="screenshot/app-screen-1.png" width="400"> | <img src="screenshot/app-screen-2.png" width="400">
 <img src="screenshot/video.gif"> |
